@@ -1,6 +1,6 @@
 import Magician from '../Magician';
 
-test('Testing the Magician class for correct data when instantiating', () => {
+test('testing the Magician class for correct data when instantiating', () => {
   const result = new Magician('Dragon');  
   const expected = {
     _name: 'Dragon',

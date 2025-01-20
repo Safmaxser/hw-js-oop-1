@@ -1,6 +1,6 @@
 import Bowman from '../Bowman';
 
-test('Testing the Bowman class for correct data when instantiating', () => {
+test('testing the Bowman class for correct data when instantiating', () => {
   const result = new Bowman('Dragon');  
   const expected = {
     _name: 'Dragon',

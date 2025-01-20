@@ -16,7 +16,7 @@ test.each(['SM', 'Thanos', 'Spider-man'])
 
 test.each(['S', 'Super-puper'])
 ('testing the Character class for an error when an entered invalid name %s', (name) => {
-  expect(() => new Character(name, 'Bowman', 0, 0)).toThrow(/Некорректное значение - name/);
+  expect(() => new Character(name, 'Bowman', 0, 0)).toThrow(Error('Некорректное значение - name'));
 });
 
 test.each(['Bowman', 'Swordsman', 'Magician', 'Undead', 'Zombie', 'Daemon'])
@@ -35,7 +35,7 @@ test.each(['Bowman', 'Swordsman', 'Magician', 'Undead', 'Zombie', 'Daemon'])
 
 test.each(['Superman', 'Wordsman'])
 ('testing the Character class for an error when an entered invalid type %s', (type) => {
-  expect(() => new Character('Thanos', type, 0, 0)).toThrow(/Некорректное значение - type/);
+  expect(() => new Character('Thanos', type, 0, 0)).toThrow(Error('Некорректное значение - type'));
 });
 
 test('testing the Character class to get a name', () => {

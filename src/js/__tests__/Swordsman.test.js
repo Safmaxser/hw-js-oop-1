@@ -1,6 +1,6 @@
 import Swordsman from '../Swordsman';
 
-test('Testing the Swordsman class for correct data when instantiating', () => {
+test('testing the Swordsman class for correct data when instantiating', () => {
   const result = new Swordsman('Dragon');  
   const expected = {
     _name: 'Dragon',

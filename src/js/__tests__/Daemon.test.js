@@ -1,6 +1,6 @@
 import Daemon from '../Daemon';
 
-test('Testing the Daemon class for correct data when instantiating', () => {
+test('testing the Daemon class for correct data when instantiating', () => {
   const result = new Daemon('Dragon');  
   const expected = {
     _name: 'Dragon',

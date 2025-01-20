@@ -1,6 +1,6 @@
 import Undead from '../Undead';
 
-test('Testing the Undead class for correct data when instantiating', () => {
+test('testing the Undead class for correct data when instantiating', () => {
   const result = new Undead('Dragon');  
   const expected = {
     _name: 'Dragon',

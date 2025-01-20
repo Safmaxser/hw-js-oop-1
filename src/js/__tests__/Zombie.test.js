@@ -1,6 +1,6 @@
 import Zombie from '../Zombie';
 
-test('Testing the Zombie class for correct data when instantiating', () => {
+test('testing the Zombie class for correct data when instantiating', () => {
   const result = new Zombie('Dragon');  
   const expected = {
     _name: 'Dragon',
